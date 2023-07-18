@@ -7,7 +7,6 @@ import About from "./components/About";
 import Services from "./components/Services";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
-import "./App.css";
 
 function App() {
   return (
@@ -19,6 +18,7 @@ function App() {
       <Services />
       <Work />
       <Contact />
+      <div className="h-[4000px]"></div>
     </div>
   );
 }
